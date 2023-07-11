@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+:root {
+    --cor-principal: #F98697;
+    --cor-secundaria: #FFFFFF;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing:border-box;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.cabeçalho {
+    padding:3% 0 0 20%;
+}
+
+.cabeçalho__menu {
+    display:flex;
+    gap: 80px
+}
+
+.cabeçalho__menu__link {
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F98697;
+    text-decoration: none;
+   
+
+}
+
+.titulo-destaque {
+   color: #F98697;
+}
+
+.frase-destaque {
+    color: #F98697;
+}
+
+.apresentacao {
+    padding:7% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    font-size: 18px;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.titulo {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    
+}
+
+
+
+.apresentacao__links {
+    font-size: 11px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+    gap: 19px;
+}
+
+.apresentacao__links__subtitulo {
+
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 400px;
+    font-size: 19px;
+
+
+
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border: 2px dotted #F98697;
+    width: 250px;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px ;
+    text-decoration: none ;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif; 
+
+
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    padding: 3%
+}
+
+.rodape {
+    padding: 20px ;
+    color: #FFFFFF;
+    background-color: #F98697;
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+   
+  
+
+}
+	
+	
