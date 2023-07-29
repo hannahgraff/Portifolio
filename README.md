@@ -1,3 +1,3 @@
 # Primeiro projeto :)
-<p> Desenvolvido atráves do curso <strong>HTML/CSS</strong> da Alura. </p>
+<p> Objeto de estudo desenvolvido a partir do curso <strong>HTML/CSS</strong> da Alura. </p>
 
